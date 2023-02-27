@@ -16,12 +16,12 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 const features = [
   {
-    title: 'We experimernt',
+    title: 'We experiment',
     description: <>We try new platforms according to users order.</>,
   },
   {
     title: "What's next?",
-    description: <>DreamCore Will make blog</>,
+    description: <>DreamCore Will make app</>,
   },
   {
     title: 'How to approach?',
@@ -49,7 +49,7 @@ export default function Home() {
   const {siteConfig} = context;
   return (
     <Layout
-      title={`Home`}
+      title="Home"
       description="Getting the right legal advice is important because it helps you know your rights and gives you a better chance for a positive outcome.">
       <header className={clsx('hero hero--primary', 'heroBanner')}>
         <div className="container">
